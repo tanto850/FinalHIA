@@ -5,7 +5,8 @@ const { mongoose } = require('./database');
 var app = express();
 
 const corsOptions = {
-    origin: ['http://52.7.172.203', 'http://localhost:4200' ,'http://localhost:80'] // En casos de prueba
+    origin: ['http://52.7.172.203', 'http://localhost:4200' ,'http://localhost:80', 'http://localhost:3000', 'http://localhost:8080', 
+             'http://localhost:27017', 'http://localhost:27018', 'http://localhost:27019', 'http://frontend:80', 'http://frontend:8080' ] // En casos de prueba
     //origin: 'http://52.7.172.203'                            // Para entregar completamente la aplicación
   };
 
